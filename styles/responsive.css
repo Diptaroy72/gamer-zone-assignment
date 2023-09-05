@@ -1,7 +1,32 @@
 @media screen and (max-width: 575px) {
-    .nav-container , .about{
+    .nav-container , .about , .hero-2 , .hero-3 {
         flex-direction: column;
     }
-
-    
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .hero-play h1{
+        font-size: 35px;
+    }
+    .hero-title{
+        font-size: 30px;
+    } 
+    .hero-img img{
+        width: 100%;
+    }
+    .hero-play{
+        width: 100%;
+    }
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+    .hero-3 img{
+        width: 100%;
+    }
+    .type-games{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .type-games-2 {
+        grid-template-columns: repeat(2 , 1fr);
+    }
 }
