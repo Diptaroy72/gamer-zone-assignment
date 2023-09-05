@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #FFF;
+
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gamer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 45px;
+  
+}
+.about{
+
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.about a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #3C354F;
+    font-size: 18px;
+}
+.icon{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.icon:hover{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+}
+.fa-youtube{
+    color: red;
+    font-size: 20px;
+}
+.fa-tiktok{
+    color: black;
+    font-size: 20px;
+}
+.fa-gamepad{
+    color: #FF42A5;
+}
+
+/* Nav end */
+
+/* main body */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-title{
+    color: #0B0223;
+    margin-bottom: 5px;
+    font-size: 48px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.hero h1{
+    color: #FF42A5;
+    font-size: 95px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 24px;
+}
+.hero p{
+    color: #534C64;
+    font-weight: 500;
+    font-size: 16px;
+}
+.hero img{
+    width: 80%;
+}
+
+.btn-primary{
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    padding: 15px 25px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+#secondary{
+    background: #4EC5F7;
+}
+.hero-2{
+    display: flex;
+}
+.hero-play{
+    width: 50%;
+}
+.hero-2-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F948B2;
+    text-align: end;
+}
+.hero-2-description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: end;
+}
+.button-position{
+   margin-top: 1px;
+    text-align: end;
+}
+.purpose{
+    text-align: end;
+    font-size: 24px;
+    font-weight: 500;
+}
+.unleash{
+    color: #534C64;
+    text-align: end;
+    font-size: 32px;
+    font-weight: 700;
+}

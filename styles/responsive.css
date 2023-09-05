@@ -1,0 +1,7 @@
+@media screen and (max-width: 575px) {
+    .nav-container , .about{
+        flex-direction: column;
+    }
+
+    
+}
